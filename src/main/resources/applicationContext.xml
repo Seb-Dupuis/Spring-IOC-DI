@@ -6,8 +6,6 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- We will define our beans here : -->
-    <bean id="Wizard" class="fr.wildcodeschool.thewizardproject.models.Dumbledore">
-    </bean>
-
+    <context:component-scan base-package="fr.wildcodeschool.thewizardproject.models">
+    </context:component-scan>
 </beans>

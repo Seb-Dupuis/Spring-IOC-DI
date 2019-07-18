@@ -6,7 +6,7 @@ public class Gandalf implements WizardInterface {
 
     @Override
     public String giveAdvice() {
-        return "Test";
+        return "Gandalf";
     }
 
     public void setOutfit(Outfit wizardDress) {
